@@ -135,24 +135,24 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
+      {% if site.resume_section_award %}
+      <!-- begin Award -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Award</h2>
         </header>
 
-        {% for recognition in site.data.recognitions %}
+        {% for award in site.data.awards %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
+          <h3 class="resume-item-title" itemprop="award">{{ award.award }}</h3>
+          <h4 class="resume-item-details">{{ award.organization }} &bull; {{ award.year }}</h4>
+          <p class="resume-item-copy">{{ award.summary }}</p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Recognition -->
+      <!-- end Award -->
       {% endif %}
 
       {% if site.resume_section_associations %}
