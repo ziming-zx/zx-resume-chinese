@@ -125,8 +125,8 @@
         {% for activity in site.data.activity %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h4 class="resume-item-title" itemprop="name">{% if activity.url %}<a href="{{ activity.url }}" itemprop="url">{{ activity.activity }}</a>{% else %}{{ activity.activity }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ activity.role }} &bull; {{ activity.duration }}</h4>
+          <h4 class="resume-item-details" itemprop="name">{% if activity.url %}<a href="{{ activity.url }}" itemprop="url">{{ activity.activity }}</a>{% else %}{{ activity.activity }}{% endif %}</h4>
+          <p class="resume-item-copy" itemprop="description">{{ activity.role }} &bull; {{ activity.duration }}</p>
           <p class="resume-item-copy">{{ activity.description }}</p>
         </div>
         {% endfor %}
