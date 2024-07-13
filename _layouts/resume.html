@@ -179,8 +179,7 @@
         </header>
       
         {% for publication in site.data.publications %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+        <div class="resume-item">
           <h4 class="resume-item-details">{{ publication.publication }}</h4>
           <p class="resume-item-copy">{{ publication.description }}</p>
         </div>
