@@ -20,8 +20,8 @@ resume_contact_email:           "ziming4@ualberta.ca"
 resume_contact_telephone:       "888-8888"
 resume_contact_address:         "6-361 Donadeo Innovation Centre for Engineering, 9211 116th Street, Edmonton, Alberta, Canada T6G 1H9"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "6-361 DICE 9211 116th Street, Edmonton, AB, CA • 780-6956981 • ziming4@ualberta.ca"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Hello, my name is Ziming Xu, and I am a fourth-year Ph.D. student at the University of Alberta. My research is dedicated to pioneering advancements in production forecasting and optimization through the application of advanced deep learning and numerical methods. I am deeply passionate about machine learning and its potential to solve critical subsurface problems. My work focuses on pushing the boundaries of knowledge in these areas, aiming to make a significant impact on both the academic and industrial fronts.</p>"
 
