@@ -20,5 +20,5 @@
 # Impacts of Meshing and Discretization on DPDK Flow Simulation
 - project: Impacts of Meshing and Discretization on DPDK Flow Simulation
   duration: Jan. 2019 &mdash; Dec. 2021
-  url: https://github.com/ziming-zx/zx-resume/blob/gh-pages/README.md
+  url: https://ziming-zx.github.io/research/
   description:  <ul class="resume-item-list"><li>Proposed quick analytical workflow for generating non-planar twisted fractures, improving fracture representation.</li><li>Developed novel workflow to restore connectivity between disconnected fractures after discretization.</li><li>Upscaled DFN into DPDK and conducted DPDK Flow simulation on fractured reservoir using a black oil simulator.</li></ul>
