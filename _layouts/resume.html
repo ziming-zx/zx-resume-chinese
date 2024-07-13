@@ -247,6 +247,24 @@
       <!-- end Print Social Links -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publication</h2>
+        </header>
+      
+        {% for publication in site.data.publication %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <p class="resume-item-copy">{{ publication.description }}</p>
+        </div>
+        {% endfor %}
+      
+      </section>
+      <!-- end Publications -->
+      {% endif %}
+
       <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
         <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
