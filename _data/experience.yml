@@ -17,10 +17,11 @@
   position: English Teacher
   duration: May, 2018 &mdash; August, 2018
   location: Xian, Shannxi, China
-   summary: <ul class="resume-item-list"><li>Delivered Traveling English courses, enhancing practical communication skills for international travel.</li><li>Taught High School English, improving students' reading, writing, and critical thinking abilities.</li></ul>
+  summary: <ul class="resume-item-list"><li>Delivered Traveling English courses, enhancing practical communication skills for international travel.</li><li>Taught High School English, improving students' reading, writing, and critical thinking abilities.</li></ul>
+
 # Field Operator Intern
 - company: PetroChina Changqing Oilfield Company, No.10 Oil Extraction Factory
   position: Field Operator Intern
   duration: May, 2017 &mdash; August, 2017
-   location: Gansu, Qingyang, China
+  location: Gansu, Qingyang, China
   summary: <ul class="resume-item-list"><li>Conducted routine maintenance and inspections on field equipment.</li><li>Implemented field safety inspections, identifying potential hazards and taking necessary measures to mitigate risks.</li><li>Responsible for daily oil sample collection, following sampling protocols and documenting sample details for analysis.</li></ul>
