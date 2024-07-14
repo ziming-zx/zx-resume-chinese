@@ -1,35 +1,42 @@
-# Advanced ML Model Reading Group 
-- activity: Advanced ML Model Reading Group
-  duration: Jan. 2024 &mdash; Present
-  role: Organizer
+# 活动
+# 爱思唯尔审稿人
+- activity: 爱思唯尔审稿人
+  duration: 2024年1月 &mdash; 至今
+  role: 审稿人
   # url: "#"
- 
-# Future Energy System (FES) Science Rendezvous 
-- activity: Future Energy System (FES) Science Rendezvous
-  duration: Spring 2024
-  role: Activity Lead
+
+# 高级机器学习模型阅读小组
+- activity: 高级机器学习模型阅读小组
+  duration: 2024年1月 &mdash; 至今
+  role: 组织者
+  # url: "#"
+
+# 未来能源系统（FES）科学游园会
+- activity: 未来能源系统（FES）科学游园会
+  duration: 2024年春季
+  role: 活动负责人
   url: https://www.sciencerendezvous.ca/event_sites/university-of-alberta/
 
-# FES Energy Explorers
-- activity: FES Energy Explorers
-  duration: Fall 2023
-  role: Activity Lead
+# FES 能源探险者
+- activity: FES 能源探险者
+  duration: 2023年秋季
+  role: 活动负责人
   # url: "#"
 
-# Petroleum and Geoscience Reading Group
-- activity: Petroleum and Geoscience Reading Group
-  duration: April 2021 &mdash; Oct. 2022
-  role: Organizer 
+# 石油和地球科学阅读小组
+- activity: 石油和地球科学阅读小组
+  duration: 2021年4月 &mdash; 2022年10月
+  role: 组织者
   # url: https://ziming-zx.github.io/research/
 
-# ML-in-Physics Datathon-AI4Society
-- activity: ML-in-Physics Datathon-AI4Society
-  duration: Aug. 2022
-  role: Data Specialist 
+# 物理中的机器学习马拉松-AI4Society
+- activity: 物理中的机器学习马拉松-AI4Society
+  duration: 2022年8月
+  role: 数据专家
   url: https://forum.ai4society.ca/index.php/Special:EventPostingPage#/59
 
-# UofA Open House
-- activity: UofA Open House
-  duration: Oct. 2018
-  role: Volunteer
+# 阿尔伯塔大学开放日
+- activity: 阿尔伯塔大学开放日
+  duration: 2018年10月
+  role: 志愿者
   url: https://www.ualberta.ca/admissions/events/open-house.html
