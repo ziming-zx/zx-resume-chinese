@@ -116,7 +116,7 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-details" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
@@ -139,8 +139,8 @@
         {% for activity in site.data.activity %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h4 class="resume-item-details" itemprop="name">{% if activity.url %}<a href="{{ activity.url }}" itemprop="url">{{ activity.activity }}</a>{% else %}{{ activity.activity }}{% endif %}</h4>
-          <p class="resume-item-copy" itemprop="description">{{ activity.role }} &bull; {{ activity.duration }}</p>
+          <h4 class="resume-item-title" itemprop="name">{% if activity.url %}<a href="{{ activity.url }}" itemprop="url">{{ activity.activity }}</a>{% else %}{{ activity.activity }}{% endif %}</h4>
+          <p class="resume-item-details" itemprop="description">{{ activity.role }} &bull; {{ activity.duration }}</p>
           <p class="resume-item-copy">{{ activity.description }}</p>
         </div>
         {% endfor %}
@@ -182,8 +182,8 @@
         </header>
         {% for award in site.data.awards %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ award.award }}</h4>
-          <p class="resume-item-copy"> &bull; {{ award.year }}</p>
+          <h4 class="resume-item-title">{{ award.award }}</h4>
+          <p class="resume-item-details"> &bull; {{ award.year }}</p>
         </div>
         {% endfor %}
 
