@@ -1,24 +1,24 @@
-# Projects
-# Physics-Informed Deep Learning for Shale Gas Production Forecasting
-- project: Physics-Informed Deep Learning for Shale Gas Production Forecasting
-  duration: April 2023 &mdash; Present
+# 项目
+# 基于物理知识的深度学习页岩气产量预测
+- project: 基于物理知识的深度学习页岩气产量预测
+  duration: 2023年4月 &mdash; 至今
   # url: "#"
-  description: <ul class="resume-item-list"><li>Developed neural network solution for 3D Diffusivity equation.</li><li>Conducted field-scale experiments with a combined physics and data-driven model.</li></ul>
+  description: <ul class="resume-item-list"><li>开发了三维扩散方程的神经网络解决方案。</li><li>结合物理和数据驱动模型进行现场规模实验。</li></ul>
 
-# Graph Convolution for Capturing Well Interference in Production Forecasting
-- project: Graph Convolution for Capturing Well Interference in Production Forecasting
-  duration: Dec. 2022 &mdash; Present
+# 用于产量预测中捕捉井干扰的图卷积
+- project: 用于产量预测中捕捉井干扰的图卷积
+  duration: 2022年12月 &mdash; 至今
   # url: "#"
-  description: <ul class="resume-item-list"><li>Developed novel ST-GraphSAGE model for generalizing unseen nodes and computation of evolving graphs.</li><li>Incorporated a GRU encoder-decoder model to capture cross-time neighborhood information effectively.</li></ul>
+  description: <ul class="resume-item-list"><li>开发了新颖的ST-GraphSAGE模型，用于推广未见节点和计算动态图。</li><li>结合GRU编码-解码器模型，有效捕捉跨时间邻域信息。</li></ul>
 
-# Enhanced RNN-Based Production Forecasting for Shale Gas Reservoirs
-- project: Enhanced RNN-Based Production Forecasting for Shale Gas Reservoirs
-  duration: Sep. 2021 &mdash; April 2023
+# 用于页岩气藏产量预测的增强型RNN
+- project: 用于页岩气藏产量预测的增强型RNN
+  duration: 2021年9月 &mdash; 2023年4月
   # url: "#"
-  description: <ul class="resume-item-list"><li>Developed novel MRA (Masked Recurrent Alignment) architecture, enabling inputs sequence with varied lengths.</li><li>Proposed novel RUF (Recursively Updated Forecasting) architecture, enabling real-time updates with production data.</li><li>Generated multi-stage hydraulic fracture synthetic dataset using DFNs and geomechanical simulation.</li></ul>
+  description: <ul class="resume-item-list"><li>开发了新颖的MRA（Masked Recurrent Alignment）架构，支持输入序列的不同长度。</li><li>提出了新颖的RUF（Recursively Updated Forecasting）架构，实现了生产数据的实时更新。</li><li>使用DFNs和地质力学模拟生成了多阶段水力压裂合成数据集。</li></ul>
 
-# Impacts of Meshing and Discretization on DPDK Flow Simulation
-- project: Impacts of Meshing and Discretization on DPDK Flow Simulation
-  duration: Jan. 2019 &mdash; Dec. 2021
+# 网格划分和离散化对DPDK流动模拟的影响
+- project: 网格划分和离散化对DPDK流动模拟的影响
+  duration: 2019年1月 &mdash; 2021年12月
   url: https://ziming-zx.github.io/research/
-  description:  <ul class="resume-item-list"><li>Proposed quick analytical workflow for generating non-planar twisted fractures, improving fracture representation.</li><li>Developed novel workflow to restore connectivity between disconnected fractures after discretization.</li><li>Upscaled DFN into DPDK and conducted DPDK Flow simulation on fractured reservoir using a black oil simulator.</li></ul>
+  description: <ul class="resume-item-list"><li>提出了快速解析工作流程以生成非平面扭曲裂缝，改善了裂缝表示。</li><li>开发了新的工作流程，以在离散化后恢复断裂的连接性。</li><li>将DFN升级为DPDK，并使用黑油模拟器对裂缝储层进行DPDK流动模拟。</li></ul>
