@@ -93,7 +93,7 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <h5 class="resume-item-copy" itemprop="description">{{ project.location }}</h5>
+          <h5 class="resume-item-copy" itemprop="description">{{ job.location }}</h5>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -203,7 +203,7 @@
         {% for publication in site.data.publications %}
         <div class="resume-item">
           <h4 class="resume-item-copy">{{ publication.publication }}</h4>
-          {% if conference.doi %}
+          {% if publication.doi %}
           <p class="resume-item-copy"><strong>DOI:</strong> <a href="{{ publication.doi }}" target="_blank">{{ publication.doi }}</a></p>
           {% endif %}
         </div>
