@@ -47,7 +47,10 @@
         {% endif %}
 
       </header>
-
+      
+      ####################
+      # Education Section #
+      ####################
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -74,7 +77,10 @@
       </section>
       <!-- end Education -->
       {% endif %}
-
+      
+      ####################
+      # Experience Section #
+      ####################
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -94,7 +100,10 @@
       </section>
       <!-- end Experience -->
       {% endif %}
-
+      
+      ####################
+      # Projects Section #
+      ####################
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
@@ -115,6 +124,9 @@
       <!-- end Projects -->
       {% endif %}
 
+      ####################
+      # Activities Section #
+      ####################
       {% if site.resume_section_activities %}
       <!-- begin Activities -->
       <section class="content-section">
@@ -134,7 +146,10 @@
       </section>
       <!-- end Activities -->
       {% endif %}
-      
+
+      ####################
+      # Skills Section #
+      ####################
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
@@ -152,7 +167,10 @@
       </section>
       <!-- end Skills -->
       {% endif %}
-
+      
+      ####################
+      # Award Section #
+      ####################
       {% if site.resume_section_award %}
       <!-- begin Award -->
       <section class="content-section">
@@ -170,12 +188,15 @@
       </section>
       <!-- end Award -->
       {% endif %}
-
+      
+      ####################
+      # Publications Section #
+      ####################
       {% if site.resume_section_publications %}
       <!-- begin Publications -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Publication</h2>
+          <h2>Journal Publication</h2>
         </header>
       
         {% for publication in site.data.publications %}
@@ -188,6 +209,30 @@
       </section>
       <!-- end Publications -->
       {% endif %}
+      
+      ####################
+      # Conferences Section #
+      ####################
+      {% if site.resume_section_conferences %}
+      <!-- begin Conferences -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Conferences</h2>
+        </header>
+      
+        {% for conference in site.data.conferences %}
+        <div class="resume-item">
+          <h4 class="resume-item-copy">{{ conference.conference }}</h4>
+          {% if conference.doi %}
+          <p class="resume-item-copy"><strong>DOI:</strong> <a href="{{ conference.doi }}" target="_blank">{{ conference.doi }}</a></p>
+          {% endif %}
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Conferences -->
+      {% endif %}
+      
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
