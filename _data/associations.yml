@@ -1,12 +1,10 @@
-# Associations
-# comment out the urls if you do not wish to display them
-
-- organization: Society of Petroleum Engineers (SPE)
-  role: Member (5062345) 
-  year: 2017 &mdash; Present
+# 协会
+- organization: 石油工程师协会 (SPE)
+  role: 会员 (5062345) 
+  year: 2017 &mdash; 至今
   url: https://www.spe.org/en/
 
-- organization: Association of Professional Engineers and Geoscientists of Alberta (APEGA)
-  role: Fellow
-  year: 2019 &mdash; Present
+- organization: 阿尔伯塔省专业工程师和地球科学家协会 (APEGA)
+  role: 会员
+  year: 2019 &mdash; 至今
   url: https://www.apega.ca/
