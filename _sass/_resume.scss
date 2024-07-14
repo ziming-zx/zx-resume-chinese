@@ -9,7 +9,7 @@
 
   h2 {
     @include sans;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 1.75rem;
     letter-spacing: -.05rem;
     margin: 0;
@@ -55,10 +55,10 @@
 
     .header-title {
       @include sans;
-      font-weight: 250;
-      font-size: 1.65rem;
+      font-weight: 300;
+      font-size: 1.75rem;
       line-height: 2rem;
-      letter-spacing: 1rem;
+      letter-spacing: -.05rem;
       text-align: center;
       margin: 0 0 .5rem;
 
