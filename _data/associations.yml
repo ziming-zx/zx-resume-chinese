@@ -1,15 +1,12 @@
 # Associations
 # comment out the urls if you do not wish to display them
 
-- organization: PETA
-  role: Volunteer
-  year: 2001 &mdash; 2010
-  url: https://www.peta.org/
-  summary: Organized fund drives and participated in fundraising events for the benefit of PETA's local Springfield operations.
+- organization: Society of Petroleum Engineers (SPE)
+  role: Member (5062345) 
+  year: 2017 &mdash; Present
+  url: https://www.spe.org/en/
 
-
-- organization: Yale Amnesty International
-  role: Communications coordinator
-  year: 2002 &mdash; 2004
-  url: http://campuspress.yale.edu/amnesty/
-  summary: During my junion and senior years at Yale, I was actively involved in Yale Amnesty International where I helped facilitate our student organization communications through website maintenance, writing for our campus publication, and graphic design of related materials.
+- organization: Association of Professional Engineers and Geoscientists of Alberta (APEGA)
+  role: Fellow
+  year: 2019 &mdash; Present
+  url: https://www.apega.ca/
