@@ -1,14 +1,17 @@
-# Coding languages
-- skill: Coding languages
+# 技能
+# 编程语言
+- skill: 编程语言
   description: Python, Matlab, R, Java
-# Industry Software
-- skill: Industry Software
+
+# 行业软件
+- skill: 行业软件
   description: CMG, Fracman, MRST, COMSOL, AutoCAD, Petrel, FORGAS, PIPESIM
 
-# Database
-- skill: Database
+# 数据库
+- skill: 数据库
   description: RISM, Accumap
 
-# Server
-- skill: Server
+# 服务器
+- skill: 服务器
   description: Compute Canada
+
