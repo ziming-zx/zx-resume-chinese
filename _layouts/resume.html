@@ -181,7 +181,7 @@
         {% for publication in site.data.publications %}
         <div class="resume-item">
           <h4 class="resume-item-copy">{{ publication.publication }}</h4>
-          <p class="resume-item-copy">{{ publication.description }}</p>
+          <p class="resume-item-copy"><strong>DOI:</strong> <a href="{{ publication.doi }}" target="_blank">{{ publication.doi }}</a></p>
         </div>
         {% endfor %}
       
