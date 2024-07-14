@@ -23,7 +23,7 @@ resume_contact_address:         "6-361 Donadeo Innovation Centre for Engineering
 resume_header_contact_info:     "6-361 DICE, 9211 116th St, Edmonton, AB, CA • ziming4@ualberta.ca"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>您好，我叫徐子明，目前是阿尔伯塔大学的四年级博士生。我的研究专注于通过应用先进的深度学习和数值方法，在产量预测和优化领域取得突破性进展。我对机器学习及其解决关键地下问题的潜力充满热情。我的工作旨在推动这些领域的知识前沿，希望在学术界和工业界都产生重大影响。</p>"
+resume_header_intro: "<p>您好，我叫徐子明，是阿尔伯塔大学四年级的博士生。我的主要研究方向是利用深度学习和数值方法进行产量预测和生产优化。我对机器学习在解决地下关键问题方面的潜力充满热情。我的工作旨在推动这些领域的前沿知识，并希望在学术界和工业界做出贡献。</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
