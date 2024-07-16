@@ -27,13 +27,13 @@
 - activity: 石油和地球科学读书会
   duration: 2021年4月 &mdash; 2022年10月
   role: 组织者
-  # url: https://ziming-zx.github.io/research/
+  # url: "#"
 
 # AI4Society：物理中的机器学习-数据马拉松
 - activity: AI4Society：物理中的机器学习-数据马拉松
   duration: 2022年8月
   role: 数据专家
-  url: https://forum.ai4society.ca/index.php/Special:EventPostingPage#/59
+  url: https://ziming-zx.github.io/2022-08-30-datathon/
 
 # 阿尔伯塔大学开放日
 - activity: 阿尔伯塔大学开放日
