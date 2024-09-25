@@ -10,13 +10,6 @@
   position: 助理研究员
   duration: 2019年9月 &mdash; 现在
   summary: <ul class="resume-item-list"><li>进行非常规油气田开发的研究和数据分析。</li><li>与教授合作发表论文。</li><li>协助撰写资助申请。</li></ul>
-  
-# 实习现场技术员
-- company: 中国石油长庆实业有限公司
-  position: 实习技术员
-  duration: 2018年5月 &mdash; 2018年8月
-  location: 中国陕西省西安市
-  summary: <ul class="resume-item-list"><li>对小河和五蛟作业区的井进行递减分析。</li><li>利用测井图检查和评估射孔层和油水界面。</li><li>参与设计和验证封堵及再射孔方案。</li></ul>
 
 # 英语教师
 - company: 百福国际英语
@@ -24,10 +17,3 @@
   duration: 2018年5月 &mdash; 2018年8月
   location: 中国陕西省西安市
   summary: <ul class="resume-item-list"><li>教授旅行英语课程，提升学生国际旅行的实际交流能力。</li><li>教授高中英语，提升学生的阅读、写作和批判性思维能力。</li></ul>
-
-# 实习现场操作员
-- company: 中国石油长庆油田公司第十采油厂
-  position: 实习现场操作员
-  duration: 2017年5月 &mdash; 2017年8月
-  location: 中国甘肃省庆阳市
-  summary: <ul class="resume-item-list"><li>进行现场设备的日常维护和检查。</li><li>实施现场安全检查，识别潜在危险并采取必要措施减轻风险。</li><li>负责每日油样收集，并记录样品详细信息以供分析。</li></ul>
